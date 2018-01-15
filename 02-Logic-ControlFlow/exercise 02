@@ -17,3 +17,11 @@ All Python expressions in the following code chunk evaluate to True:
 3 <= 4
 "alpha" <= "beta"
 Remember that for string comparison, Python determines the relationship based on alphabetical order.
+
+
+Compare arrays
+Out of the box, you can also use comparison operators with Numpy arrays.
+
+Remember areas, the list of area measurements for different rooms in your house from the previous course? 
+This time there's two Numpy arrays: my_house and your_house. 
+They both contain the areas for the kitchen, living room, bedroom and bathroom in the same order, so you can compare them.
