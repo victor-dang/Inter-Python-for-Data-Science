@@ -7,3 +7,13 @@ Feel free to try them out in the IPython Shell.
 True != False
 "Python" != "python"
 When you write these comparisons in a script, you will need to wrap a print() function around them to see the output.
+
+Greater and less than
+In the video, Filip also talked about the less than and greater than signs, < and > in Python. 
+You can combine them with an equals sign: <= and >=. Pay attention: <= is valid syntax, but =< is not.
+All Python expressions in the following code chunk evaluate to True:
+
+3 < 4
+3 <= 4
+"alpha" <= "beta"
+Remember that for string comparison, Python determines the relationship based on alphabetical order.
