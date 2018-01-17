@@ -10,3 +10,5 @@ sel = cars[dr]
 
 # Print sel
 print(sel)
+
+#sel = cars[cars['drives_right']]
