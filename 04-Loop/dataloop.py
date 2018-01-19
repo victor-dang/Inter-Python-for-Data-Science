@@ -34,3 +34,9 @@ for rlabel,rcontent in cars.iterrows():
     cars.loc[rlabel, "COUNTRY"]=str(rcontent["country"]).upper()
 # Print cars
 print(cars)
+
+# Use .apply(str.upper)
+for lab, row in cars.iterrows() :
+    cars.loc[lab, "COUNTRY"] = row["country"]
+cars["COUNTRY"] = cars["country"].apply(str.upper)
+print(cars)
